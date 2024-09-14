@@ -11,8 +11,8 @@
   <url>http://maven.apache.org</url>
 
   <properties>
-    <maven.compiler.source>17</maven.compiler.source>  <!-- Вкажіть версію Java -->
-    <maven.compiler.target>17</maven.compiler.target>  <!-- Вкажіть версію Java -->
+    <maven.compiler.source>22</maven.compiler.source>  <!-- Вкажіть версію Java -->
+    <maven.compiler.target>22</maven.compiler.target>  <!-- Вкажіть версію Java -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -64,8 +64,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version> <!-- Версія плагіна для компіляції -->
         <configuration>
-          <source>17</source>  <!-- Версія JDK для компіляції -->
-          <target>17</target>  <!-- Версія JDK для згенерованого байт-коду -->
+          <source>22</source>  <!-- Версія JDK для компіляції -->
+          <target>22</target>  <!-- Версія JDK для згенерованого байт-коду -->
         </configuration>
       </plugin>
       <plugin>
